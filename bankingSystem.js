@@ -8,7 +8,7 @@ class BankAccount {
         if (amount > 0) {
           this.balance += amount;
           resolve(
-            `Berhasil mendepositkan ${amount}. Saldo sekarang: ${this.balance}`
+            `Berhasil melakukan deposit ${amount}. Saldo : ${this.balance}`
           );
         } else {
           reject("Jumlah deposit tidak valid.");
@@ -22,7 +22,7 @@ class BankAccount {
         if (amount > 0 && amount <= this.balance) {
           this.balance -= amount;
           resolve(
-            `Berhasil menarik ${amount}. Saldo sekarang: ${this.balance}`
+            `Berhasil menarik ${amount}. Saldo : ${this.balance}`
           );
         } else {
           reject("Jumlah penarikan tidak valid atau saldo tidak mencukupi.");
