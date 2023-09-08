@@ -1,1 +1,2 @@
-# Basic-Banking-System.github.io
+# Basic-Banking-System
+# Challenge 2 Binar Academy
