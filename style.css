@@ -1,0 +1,14 @@
+.tombol {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background: yellowgreen;
+  border: 1px solid black;
+  transition: 0.5s ease-in-out;
+}
+
+.btn:hover {
+  border: 1px solid black;
+}
